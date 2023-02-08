@@ -1,0 +1,41 @@
+/* Import Google font */
+@import url("https//fonts.goolepis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-sarif;
+}
+body {
+  background: #e3f2fd;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .color {
+  list-style: none;
+  margin: 13px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(52, 87, 220, 0.08);
+}
+
+.color .rect-box {
+  width: 185px;
+  height: 188px;
+  border-radius: 5px;
+  background: #8a6cff;
+}
+
+.color .hex-value {
+  display: block;
+  color: #444;
+  margin: 12px 0 8px;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
